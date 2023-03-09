@@ -1,5 +1,5 @@
 public class Vehicle {
-	
+	int tyres;
 	public static void main(String[] args) {
 		PetrolEngine pE = new PetrolEngine();
 		pE.start();
@@ -9,5 +9,7 @@ public class Vehicle {
 		
 		ElectricEngine eE = new ElectricEngine();
 		eE.start();
+
+		this.tyres = 4;
 	}
 }
