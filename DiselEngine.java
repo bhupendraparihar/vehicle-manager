@@ -8,6 +8,6 @@ public class DiselEnigne{
 	}
 
 	public void speed(){
-		System.out.println("Disel engine running");
+		System.out.println("Disel engine speeding");
 	}
 }
