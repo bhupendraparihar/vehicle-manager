@@ -6,4 +6,8 @@ public class DiselEnigne{
 	public void stop() {
 		System.out.println("Disel engine stoped");
 	}
+
+	public void speed(){
+		System.out.println("Disel engine running");
+	}
 }
